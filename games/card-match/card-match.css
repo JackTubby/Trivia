@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+  background-color: rgb(43, 45, 51);
+  margin: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#game-area {
+  border: 1px solid greenyellow;
+  display: flex;
+}
