@@ -20,6 +20,22 @@ p {
 }
 
 #game-area {
-  border: 1px solid greenyellow;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+  grid-gap: 40px; /* Adjust gap size as needed */
+  justify-content: center; /* Center the grid horizontally */
+  align-content: center; /* Center the grid vertically */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 90px auto; /* Center the container div horizontally */
+}
+
+#message {
+  text-align: center;
+  font-size: 22px;
+}
+
+#wrong-answers {
+  text-align: center;
+  font-size: 20px;
+  color: white;
 }
